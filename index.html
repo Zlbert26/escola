@@ -16,7 +16,7 @@
    
     <li id="lista-item">Estudante</li>
 </ul>
-<img id="jardim" src="escola.jpeg" alt="logo da escola">
+<img id="jardim" src="jardim.jpg" alt="logo da escola">
 </header>
 <section id="escola">
     <div id="conteudo">
@@ -25,10 +25,12 @@
         Atendendo no início até a 4ª série do fundamental e depois gradativamente até o ensino médio.</p>
     <p class="escola-texto-2">No ano de 2023 o Colégio tornou-se escola em tempo integral, através do programa Paraná Integral. </p>
 </div>
-    <img id="fotoescola"    src="escola.jpeg" alt="foto da escola">
+    <img id="fotoescola"    src="fotoescola.png" alt="foto da escola">
 </section>
 <section id="Estudante">
 <h2 id="estudante-titulo">Quem são nossos estudantes?</h2>
+<div id="estudante-todos">
+    <span></span>
 <div id="estudante-div">
 <img id="alunos" src="aluno1.jpg" alt="imagem do aluno 1">
 <h3>Maria</h3>
@@ -36,6 +38,90 @@
 <img id="estudante-icone"    src="instagram.png" alt="imagem instagram">
 <img id="estudante-icone"    src="github.png" alt="imagem github">
 </div>
+<div id="estudante-div">
+    <img id="alunos" src="aluno2.jpg" alt="imagem do aluno 1">
+    <h3>Cebolinha</h3>
+    <img id="estudante-icone"    src="facebook.png" alt="imagem facebook">
+    <img id="estudante-icone"    src="instagram.png" alt="imagem instagram">
+    <img id="estudante-icone"    src="github.png" alt="imagem github">
+    </div>
+    <div id="estudante-div">
+        <img id="alunos" src="aluno3.jpg" alt="imagem do aluno 1">
+        <h3>Cascão</h3>
+        <img id="estudante-icone"    src="facebook.png" alt="imagem facebook">
+        <img id="estudante-icone"    src="instagram.png" alt="imagem instagram">
+        <img id="estudante-icone"    src="github.png" alt="imagem github">
+        </div>
+    </div>
+
 </section>
+
 </body>
 </html>
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+#cabecalho{
+    color: yellow;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+   
+}
+body{
+   
+background-color: hsla(241, 100%, 46%, 0.418);
+}
+#jardim{
+    width: 100px;
+    height: 100px;
+   
+}
+#fotoescola{
+    width: 25%;
+}
+
+#escola{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+   
+}
+
+#escola-titulo{
+    padding: 24px 0;
+}
+#conteudo{
+    width: 35%;
+}
+
+#lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    padding: 24px 0;
+    font-size: 24px;
+}
+#alunos{
+    width: 120px;
+    height: 120px;
+   
+}
+#estudante-icone{
+    width: 24px;
+}
+#estudante-div{
+    text-align: center;
+}
+#estudante-todos{
+    display: grid;
+    grid-template-columns: 20%  20%  20%  20%;
+}
